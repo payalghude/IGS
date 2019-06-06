@@ -1,0 +1,24 @@
+
+  <div class="wrapper fadeInDown">
+    <div id="formContent">
+      <!-- Tabs Titles -->
+  
+      <!-- Icon -->
+       <!-- <div class="fadeIn first">
+        <img src="/app/Images/teleperformance.jpg" id="icon" alt="User Icon" />
+      </div>   -->
+  
+      <!-- Login Form -->
+      <form>
+        <input type="text" id="login" class="fadeIn second" name="login" autocomplete="false" placeholder="login" [(ngModel)]="name">
+        <input type="password" id="password" class="fadeIn third" name="login" autocomplete="false" placeholder="password" [(ngModel)]="password">
+        <input type="button" (click)="Login()" class="fadeIn fourth" value="Log In">
+      </form>
+  
+      <!-- Remind Passowrd -->
+      <div id="formFooter">
+        <a class="underlineHover" href="#">Forgot Password?</a>
+      </div>
+  
+    </div>
+  </div>
